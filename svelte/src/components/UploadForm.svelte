@@ -7,7 +7,7 @@
   const dispatch = createEventDispatcher();
 
   const bytes_per_chunk = 1048576; // 1mb chunk sizes.
-  let process = true;
+  let process = false;
   let progressBarMax = 0;
   let progressBarValue = 0;
   let blobURL = "";
